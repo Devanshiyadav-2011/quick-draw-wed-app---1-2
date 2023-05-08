@@ -1,0 +1,19 @@
+body{
+    background-image: linear-gradient(green, yellow, purple, blue, pink, red);
+}
+
+
+#show-sketch {
+float: right;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from{box-shadow: -20px 20px 30px red, 20px -20px 30px aqua, 20px -20px 30px lemonchiffon;}
+    to{box-shadow:  -20px 20px 39px purple, 20px -20px 30px orange, 20px 20px 30px gold;}
+}
